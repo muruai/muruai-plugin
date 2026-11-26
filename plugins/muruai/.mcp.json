@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "muruai": {
+      "type": "http",
+      "url": "https://mcp.muruai.com/mcp"
+    }
+  }
+}

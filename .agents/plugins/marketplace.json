@@ -1,0 +1,20 @@
+{
+  "name": "muruai",
+  "interface": {
+    "displayName": "무루아이"
+  },
+  "plugins": [
+    {
+      "name": "muruai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muruai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

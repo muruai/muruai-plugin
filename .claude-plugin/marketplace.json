@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "muruai",
+  "description": "무루아이 플러그인. Claude Code에서 말로 요청해 무루아이 자료를 찾고, 고치고, 만들 수 있게 연결합니다.",
+  "owner": {
+    "name": "무루아이"
+  },
+  "plugins": [
+    {
+      "name": "muruai",
+      "displayName": "무루아이",
+      "source": "./plugins/muruai",
+      "description": "무루아이 원격 MCP 서버 연결과, 자료 찾기·고치기·이야기책·학습지·그림 넣기를 순서대로 하게 돕는 스킬을 함께 설치합니다.",
+      "version": "0.1.0",
+      "author": {
+        "name": "무루아이"
+      },
+      "homepage": "https://muruai.com/settings/ai-tools",
+      "keywords": ["muruai", "무루아이", "worksheet", "storybook", "mcp", "education"],
+      "category": "productivity"
+    }
+  ]
+}
